@@ -1,17 +1,16 @@
 import React from "react";
 
-import HeaderNavLink from "./HeaderNavLink";
-import headerSvgData from "../data/headerSvgData";
+import NavLinkElement from "./NavLinkElement";
+import headerElementData from "../data/headerElementData";
 
 function Header() {
     return (
         <header>
-            <div className="px-3 py-2 text-bg border-bottom" style={{background: "rgb(229, 225, 218)"}} >
+            <div className="px-3 py-2 text-bg border-bottom header">
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a href="/"
-                           className="align-items-center my-2 my-lg-0 me-lg-auto text-secondary text-decoration-none"
-                            style={{fontWeight: "bold"}}>
+                           className="align-items-center my-2 my-lg-0 me-lg-auto text-secondary text-decoration-none bold">
                             Lior's Protfolio Website
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
                                  className="bi bi-brightness-alt-high d-block mx-auto mb-1" viewBox="0 0 16 16">
@@ -20,11 +19,11 @@ function Header() {
                         </a>
 
                         <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                            <li> <HeaderNavLink data={headerSvgData["home"]}/> </li>
-                            <li> <HeaderNavLink data={headerSvgData["about"]}/> </li>
-                            <li> <HeaderNavLink data={headerSvgData["skills"]}/> </li>
-                            <li> <HeaderNavLink data={headerSvgData["projects"]}/> </li>
-                            <li> <HeaderNavLink data={headerSvgData["contact"]}/> </li>
+                            <li> <NavLinkElement data={headerElementData["home"]}/> </li>
+                            <li> <NavLinkElement data={headerElementData["about"]}/> </li>
+                            <li> <NavLinkElement data={headerElementData["skills"]}/> </li>
+                            <li> <NavLinkElement data={headerElementData["projects"]}/> </li>
+                            <li> <NavLinkElement data={headerElementData["contact"]}/> </li>
                         </ul>
                     </div>
                 </div>
