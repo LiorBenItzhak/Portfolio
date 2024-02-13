@@ -1,13 +1,21 @@
 .header {
-  background: rgb(229, 225, 218);
+  background: rgb(199, 200, 204);
 }
 
 .footer {
+  background: rgb(199, 200, 204);
+}
+
+.about {
   background: rgb(229, 225, 218);
 }
 
 .bold {
   font-weight: bold;
+}
+
+.round_image {
+  border-radius: 50%;
 }
 
 /*ToDo - remove unnecessary comments*/

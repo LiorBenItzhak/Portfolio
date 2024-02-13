@@ -6,7 +6,7 @@ import headerElementData from "../data/headerElementData";
 function Header() {
     return (
         <header>
-            <div className="px-3 py-2 text-bg border-bottom header">
+            <div id="header" className="px-3 py-2 text-bg border-bottom header">
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a href="/"
