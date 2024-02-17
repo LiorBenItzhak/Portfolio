@@ -11,7 +11,10 @@ function About() {
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-                            Hi, I'm Lior Ben Itzhak
+                            Hello 👋🏼
+                        </h1>
+                        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                            I'm Lior Ben Itzhak
                         </h1>
                         <p className="lead">
                             Quickly design and customize responsive mobile-first sites with Bootstrap,

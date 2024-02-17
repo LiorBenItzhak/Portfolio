@@ -18,6 +18,16 @@
   border-radius: 50%;
 }
 
+.nev_link_element {
+  transition: all 0.3s ease-in-out;
+}
+
+.nev_link_element:hover {
+  transform: scale(1.25);
+}
+
+
+
 /*ToDo - remove unnecessary comments*/
 /*.App {*/
 /*  text-align: center;*/
