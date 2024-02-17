@@ -1,5 +1,9 @@
 .header {
   background: rgb(199, 200, 204);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .footer {
@@ -8,6 +12,10 @@
 
 .about {
   background: rgb(229, 225, 218);
+}
+
+.contact {
+  background: rgb(170, 215, 217);
 }
 
 .bold {
