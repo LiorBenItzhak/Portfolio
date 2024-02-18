@@ -1,6 +1,7 @@
 const footerElementData = {
 
     "linkedin": {
+        "linkName": "linkedin",
         "svgName": "linkedin",
         "href": "https://www.linkedin.com/in/lior-ben-itzhak-324775275/",
         "classes": "text-body-secondary",
@@ -8,6 +9,7 @@ const footerElementData = {
     },
 
     "github": {
+        "linkName": "github",
         "svgName": "github",
         "href": "https://github.com/LiorBenItzhak",
         "classes": "text-body-secondary",
@@ -15,6 +17,7 @@ const footerElementData = {
     },
 
     "instagram": {
+        "linkName": "instagram",
         "svgName": "instagram",
         "href": "https://www.instagram.com/benitzhaklior?igsh=MWN1cng0MHBodHZ6aA%3D%3D&utm_source=qr",
         "classes": "text-body-secondary",
