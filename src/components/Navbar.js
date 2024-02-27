@@ -25,7 +25,9 @@ function Navbar() {
                     <ul className="navbar-nav me-auto mb-2 mb-md-0">
                         <li> <NavLinkElement data={headerElementData["home"]}/> </li>
                         <li> <NavLinkElement data={headerElementData["about"]}/> </li>
+                        <li> <NavLinkElement data={headerElementData["experience"]}/> </li>
                         <li> <NavLinkElement data={headerElementData["skills"]}/> </li>
+                        <li> <NavLinkElement data={headerElementData["education"]}/> </li>
                         <li> <NavLinkElement data={headerElementData["projects"]}/> </li>
                         <li> <NavLinkElement data={headerElementData["contact"]}/> </li>
                     </ul>

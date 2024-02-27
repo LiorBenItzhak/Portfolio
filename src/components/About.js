@@ -17,12 +17,14 @@ function About() {
                             I'm Lior Ben Itzhak
                         </h1>
                         <p className="lead">
-                            Quickly design and customize responsive mobile-first sites with Bootstrap,
-                            the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
-                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+                            Highly motivated Full Stack Developer with a focus on Cloud Backend,
+                            and hands-on 1.5 years experience in developing servers in
+                            Python, Java, C, AWS, Django REST, Git and more.
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>
+                            <a href={require('../images/lior_ben_itzhak_resume.pdf')} >
+                                <button type="button" className="btn btn-outline-secondary btn-lg px-4">Resume</button>
+                            </a>
                         </div>
                     </div>
                 </div>
