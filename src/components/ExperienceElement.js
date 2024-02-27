@@ -12,7 +12,7 @@ function ExperienceElement(props) {
                 <p>{props.details}</p>
                 <div className="d-inline-flex align-items-center justify-content-center gap-2 mb-2 mt-2">
                     <a href={props.companyLink} className="btn btn-outline-secondary">{props.linkTitle}</a>
-                    <img src={require("../images/" + props.imgName)} alt="company logo" width="200" height="100"/>
+                    <img src={require("../images/" + props.imgName)} alt="company logo" width="100%" height="100"/>
                 </div>
             </div>
         </div>

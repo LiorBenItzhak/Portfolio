@@ -8,7 +8,7 @@ const EducationData = {
         "linkDiploma": "#",
         "linkTitle": "Infinity Labs Website",
         "imgName": "infinity_labs_logo.jpeg",
-        "imgWidth": "100",
+        "imgWidth": "150",
     },
 
     "bar_ilan": {
@@ -20,7 +20,7 @@ const EducationData = {
         "linkDiploma": "#",
         "linkTitle": "Bar Ilan Website",
         "imgName": "bar_ilan_logo.png",
-        "imgWidth": "150",
+        "imgWidth": "200",
     },
 }
 
