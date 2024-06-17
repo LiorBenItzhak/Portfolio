@@ -28,7 +28,7 @@ function Navbar() {
                         <li> <NavLinkElement data={headerElementData["experience"]}/> </li>
                         <li> <NavLinkElement data={headerElementData["skills"]}/> </li>
                         <li> <NavLinkElement data={headerElementData["education"]}/> </li>
-                        <li> <NavLinkElement data={headerElementData["projects"]}/> </li>
+                        {/*<li> <NavLinkElement data={headerElementData["projects"]}/> </li>*/}
                         <li> <NavLinkElement data={headerElementData["contact"]}/> </li>
                     </ul>
                 </div>
