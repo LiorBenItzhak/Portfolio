@@ -4,7 +4,7 @@ import headerElementData from "../data/headerElementData";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-primary-subtle fixed-top">
+        <nav className="navbar navbar-expand-md bg-primary-subtle fixed-top">
             <div className="container-fluid">
                 <a href="/"
                    className="align-items-center my-2 my-lg-0 me-lg-auto text-secondary text-decoration-none bold">
