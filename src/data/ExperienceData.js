@@ -12,7 +12,7 @@ const experienceData = {
 
     "crossing_points_authority": {
         "companyName": "Crossing Points Authority, Israel",
-        "jobTitle": "Chief Security Officer",
+        "jobTitle": "Head of Security",
         "timeFrame": "July 2017 - February 2022",
         "details": "Managing the security activity of the Ministry of Defense Crossing Points Authority in Hotze Shomron & Eyal crossing points, including management of a large staff (junior security workers & middle management level).",
         "companyLink": "https://maavarim.mod.gov.il/he/Pages/default.aspx",

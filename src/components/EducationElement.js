@@ -13,8 +13,10 @@ function EducationElement(props) {
             <p>{props.details}</p>
             <p>{props.details2}</p>
             <div className="d-inline-flex gap-2 mb-2 mt-2">
-                <a href={props.linkDiploma} className="btn btn-outline-secondary">My Diploma</a>
-                <a href={props.companyLink} className="btn btn-outline-secondary">{props.linkTitle}</a>
+                <a style={{display: "table-cell"}} href={props.linkDiploma} target="_blank"
+                   className="btn btn-outline-secondary">My Diploma</a>
+                <a style={{display: "table-cell"}} href={props.companyLink} target="_blank"
+                   className="btn btn-outline-secondary">{props.linkTitle}</a>
             </div>
         </div>
     )

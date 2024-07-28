@@ -22,7 +22,7 @@ function About() {
                             Python, Java, C, AWS, Django REST, Git and more.
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a href={require('../images/lior_ben_itzhak_resume.pdf')} >
+                            <a style={{display: "table-cell"}} href={require('../images/lior_ben_itzhak_resume.pdf')} target="_blank">
                                 <button type="button" className="btn btn-outline-secondary btn-lg px-4">Resume</button>
                             </a>
                         </div>
